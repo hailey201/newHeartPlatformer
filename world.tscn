@@ -17,3 +17,7 @@ polygon = PackedVector2Array(0, 0, 32, 0, 32, 96, 64, 96, 88, 112, 112, 112, 129
 
 [node name="Player" parent="." instance=ExtResource("2_fnafn")]
 position = Vector2(176, 392)
+
+[node name="CoyoteJumpTimer" type="Timer" parent="Player"]
+wait_time = 0.15
+one_shot = true
